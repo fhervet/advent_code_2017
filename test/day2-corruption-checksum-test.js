@@ -2,9 +2,9 @@ const day2 = require('../services/day2-corruption-checksum')
 const {expect} = require('chai')
 const fs = require("fs")
 
-const example1 = fs.readFileSync("data/day2-corruption-checksum-example1.txt").toString()
-const example2 = fs.readFileSync("data/day2-corruption-checksum-example2.txt").toString()
-const input = fs.readFileSync("data/day2-corruption-checksum.txt").toString()
+const example1 = fs.readFileSync("data/day2/day2-corruption-checksum-example1.txt").toString()
+const example2 = fs.readFileSync("data/day2/day2-corruption-checksum-example2.txt").toString()
+const input = fs.readFileSync("data/day2/day2-corruption-checksum.txt").toString()
 
 describe('Advent of code - Day 2', function() {
 
